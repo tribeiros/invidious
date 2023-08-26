@@ -262,3 +262,20 @@ video.video-js {
     overflow-x: hidden;
   }
 }
+
+/* Full-width Invidious Videos */
+div#player-container {
+  margin: 0 -10% 25%;
+  padding: 0;
+}
+
+.video-js.player-dimensions.vjs-fluid {
+  padding-top: 0% !important;
+  height: auto;
+}
+
+video#player_html5_api {
+  position: relative;
+  height: auto;
+  max-height: 90vh;
+}
